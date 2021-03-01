@@ -1,5 +1,5 @@
 <?php
-include("devoir.html");
+include_once('index.html');
 
 
 
