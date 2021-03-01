@@ -1,0 +1,293 @@
+
+body{
+	background: purple;
+}
+*{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: cursive;
+}
+.barre_de_nav{
+	width: 100%;
+	position: fixed;
+	background-color: crimson; 
+}
+.barre_de_nav .max-div{
+	display: flex;
+	align-content: center;
+	margin: 15px auto;
+	justify-content: space-between;
+	width: 1400px;
+}
+.barre_de_nav .logo a{
+	font-size: 40px;
+	font-weight: 500;
+	color: #fff;
+}
+.barre_de_nav .logo span{;
+	color: #000;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 30px; 
+}
+.menu li a{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 300;
+	transition:color 1s;
+}
+.menu li a:hover{
+	color: black;
+
+}
+/********************************************************************************************************************************************************/
+.Acceuil{
+	height: 800px;
+	background:url('rose-1642970_1920.jpg');
+	object-fit: cover;
+	display: flex;
+}
+.Acceuil .max-div{
+	color: white;
+	margin: auto 120px;
+}
+.Acceuil .contenu_du_menu .text1{
+	font-size: 40px;
+	font-weight: 600;
+}
+.Acceuil .contenu_du_menu .text2{
+	color: white;
+	font-size: 25px;
+	font-weight: 600;
+}
+.Acceuil .contenu_du_menu .text2 a{
+	font-size: 30px;
+	color: #cf0;
+	font-weight: 600;
+}
+.Acceuil .contenu_du_menu .text3{
+	font-size: 35px;
+	font-weight: 700;
+}
+.Acceuil .contenu_du_menu .text3 a{
+	color: yellow;
+}
+.Acceuil .contenu_du_menu .boutton-click{
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 200;
+	background-color: #f0f;
+	color: white;
+	border-radius: 20px;
+	border: 2px solid purple;
+	padding: 10px 40px; 
+}
+.Acceuil .contenu_du_menu .boutton-click:hover{
+	background: none; 
+}
+/**************************************************************************************************/
+.moi{
+	padding:50px 150px;
+	background-color: orange;
+	margin-top: 20px;
+	height: 600px;
+}
+.moi .moi-contenu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.moi .titre{
+	font-family: Brush Script MT;
+	font-weight: 700;
+	font-size: 50px;
+	text-decoration: underline red;
+	flex-wrap: wrap;
+}
+.moi .gauche{
+	width: 45%;
+}
+.moi .droite{
+	width: 55%;
+	font-family: amarillo;
+	background-color: black;
+	color: white;
+	border-radius: 5%;
+}
+.moi img{
+
+	width: 60%;
+	height: 450px;
+	margin-left: 35px;
+	border: solid red;
+	border-radius: 20%;
+}
+.moi .phrase{
+	color: white;
+	font-size: 30px;
+}
+.moi .phrase a{
+	color: blue;
+}
+.moi div{
+	font-size: 20px;
+}
+.moi .boutton-download{
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 200;
+	background-color: #f0f;
+	color: white;
+	border-radius: 20px;
+	border: 2px solid purple;
+	padding: 10px 40px;
+	transition-duration: 1s; 
+}
+.moi .boutton-download:hover{
+	background: none; 
+}
+/***************************************************************************************************/
+.my-team{
+	display: flex;
+	justify-content: center;
+	background: url('WhatsApp Image 2021-02-18 at 17.59.10.jpeg');
+	padding-top: 30px;
+	padding-bottom: 40px;
+	margin-top: 30px;
+}
+.my-team h1{
+	font-family: Dollie Script Personal Use;
+	font-size: 60px;
+	color: yellow;
+	font-weight: 400;
+}
+.line{
+	margin-top: 0;
+	color: yellow;
+	font-weight: 500;
+}
+.line element{
+	text-decoration: line-through;
+	font-weight: 800;
+	color: black;
+	font-size: 20px 
+}
+.my-team table{
+	margin: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.my-team td{
+	background-color: black;
+	border-radius: 2%;
+	color: white;
+	align-content: center;
+	width: 500px;
+}
+.my-team img{
+	margin-top: 10px; 
+	border-radius: 100%;
+	height: 55PX.;
+	width: 40%;
+	border: solid crimson 5px;
+}
+/*******************************************************************************************************************/
+.deniere_partie{
+	background-color:pink;
+}
+.derniere_partie .max-div{
+	padding-top: 60px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	padding-left: 50px;
+	background:url('20201002_084027.jpg');
+	height: 500px;
+	margin-top: 30px;
+
+}
+.derniere_partie .div-left .saisie{
+	display: flex;
+	height: 25px;
+	justify-content: space-between;
+}
+input{
+	margin-bottom: 10px;
+	width: 350px;
+}
+.Email{
+	margin-right: 50px;
+}
+.derniere_partie .div-left{
+	width: 60%;
+
+}
+.derniere_partie .div-right div{
+	display: flex;
+	margin-bottom: 20px;
+	margin-left: 5px;
+}
+
+.derniere_partie .div-right .img{
+	width: 56px;
+	height: 40px;
+	position: right;
+}
+.derniere_partie .div-right p{
+	margin-bottom: 20px;
+}
+.derniere_partie .div-right{
+	width: 30%;
+	text-align: justify;
+}
+.boutton{
+	background-color: yellow;
+	font-family: cursive;
+	font-size: 30px;
+	font-weight: 700;
+	border: solid yellow;
+	border-radius: 20px;
+	width: 300px;
+	text-align: center;
+	height: 45px;
+	color: black;
+}
+.boutton:hover{
+	background: none;
+	color: yellow;
+	border-color: black
+}
+
+/******************************************************************************************************************************/
+footer{
+	background-color: blue;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+footer div{
+	margin-top: 10px;
+	font-size: 30px;
+}
+footer div span{
+	color: black;
+}
+footer div span a{
+	color: crimson;
+	font-family: avenir;
+	transition-duration: 2s;
+}
+footer div span a:hover{
+	color: yellow;
+}
